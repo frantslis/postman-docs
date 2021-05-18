@@ -52,7 +52,7 @@ Variables allow you to store and reuse values in your requests and scripts. By s
 
 To try out a variable, use the following steps:
 
-* Click the __Environment quick look__ (eye button) in the top right of Postman and click __Edit__ next to __Globals__.
+* Click the __Environment quick look__ (eye button) in the top right of Postman and click __Add__ next to __Globals__.
 * Add a variable named `my_variable` and give it an initial value of `Hello`—click __Save__ and close the environment modal.
 * Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name and you'll see the value.
 * __Send__ the request. In the response, you'll see that Postman sent the variable value to the API. _Try changing the value in the Environment quick look and sending the request again._
